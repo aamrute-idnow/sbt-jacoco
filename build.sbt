@@ -1,12 +1,12 @@
 name := "sbt-jacoco"
 organization := "com.github.sbt"
 
-version in ThisBuild := "3.2.0"
+version in ThisBuild := "3.3.0"
 
 sbtPlugin := true
-crossSbtVersions := Seq("0.13.17", "1.1.6")
+crossSbtVersions := Seq("0.13.17", "1.1.13")
 
-val jacocoVersion = "0.8.2"
+val jacocoVersion = "0.8.4"
 val circeVersion = "0.8.0"
 
 libraryDependencies ++= Seq(
